@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #212121;
+  --akcent-color: #2196f3;
+  --primary-background-color: #e5e5e5;
+  --button-text-color: #ffffff;
+  --button-backgroud-color: #2196f3;
+}
+
+/* bolt (700) normal (400) 500 900 roboto
+Raleway bolt (700) */
+/* Общие настройки */
+
+body {
+  color: var(--primary-color);
+  background-color: var(--primary-background-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Логотип */
+
+.logo {
+  color: var(--primary-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo span {
+  color: var(--akcent-color);
+}
+
+/* Навигация*/
+
+.nav .link {
+  color: var(--primary-color);
+}
+.nav. link:focus,
+.nav .link:hover {
+  color: var(--akcent-color);
+}
+.nav .link-current {
+  color: var(--akcent-color);
+}
+
+.nav {
+  letter-spacing: 0.02em;
+}
+.link-tel {
+  color: #757575;
+}
+/* Кнопки (заказ услуги, подписаться) */
+
+button {
+  color: var(--button-text-color);
+  background-color: var(--button-backgroud-color);
+}
