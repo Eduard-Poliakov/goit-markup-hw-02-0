@@ -3,8 +3,6 @@
   --secondary-color: #757575;
   --akcent-color: #2196f3;
   --primary-background-color: #e5e5e5;
-  --button-text-color: #ffffff;
-  --button-backgroud-color: #2196f3;
 }
 
 /* bolt (700) normal (400) 500 900 roboto
@@ -68,7 +66,7 @@ h2 {
 .nav .link {
   color: var(--primary-color);
 }
-.nav. link:focus,
+.nav .link:focus,
 .nav .link:hover {
   color: var(--akcent-color);
 }
@@ -82,11 +80,21 @@ h2 {
 .link-tel {
   color: var(--secondary-color);
 }
-/* Кнопки (заказ услуги, подписаться) */
 
-button {
-  color: var(--button-text-color);
-  background-color: var(--button-backgroud-color);
+.nav .link-tel:hover,
+.nav .link-tel:focus {
+  color: var(--akcent-color);
+}
+
+/* Кнопка заказ услуги */
+
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.15;
+  letter-spacing: 0.06em;
 }
 
 /* Особенности */
@@ -190,4 +198,43 @@ footer.footer {
   line-height: 2;
   text-align: center;
   color: rgba(255, 255, 255, 0.4);
+}
+
+/* Портфолио */
+
+.portfolio h1 {
+  font-size: 0px;
+}
+
+.portfolio h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-color);
+  text-align: left;
+}
+.portfolio p {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+.portfolio .text {
+  font-size: 0px;
+}
+
+.portfolio .button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--primary-color);
+  background-color: #f5f4fa;
+}
+
+.portfolio .button:hover,
+.portfolio .button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
 }
